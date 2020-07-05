@@ -99,3 +99,5 @@ Coin row problem is to find the maximum sum of coins that can be obtained if the
 F(n) = maximum(C(n) + F(n - 2), F(n - 1)), for n > 1.
 Where F(0) = 0 and F(1) = C(0). Where C is the coin array and F is the sum array.
 If no coin is given then no Coin will be picked, therefore the sum is 0. If one coin is given then that is the only coin picked. Therefore the sum is equal to the value of that coin. for n > 1, the recursive algorithm is followed till it reaches the value n. The Sum value at n is returned as the answer.
+
+##### Code by: Afzal
